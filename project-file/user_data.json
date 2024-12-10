@@ -573,9 +573,7 @@
             {"action":"click", "locator":"(//input[@class='hs-input'])[14]"},
             {"action":"click", "locator":"(//input[@type='checkbox'])[10]"},
             {"action":"scroll-down", "locator":"//input[@type='submit']"},
-            {"action":"custom-click", "locator":"//input[@type='submit']"}
-
-            
+            {"action":"custom-click", "locator":"//input[@type='submit']"}        
         ]
     }, 
     "website36":{
@@ -592,8 +590,15 @@
                 {"action":"click", "locator":"(//input[@name='budget'])[1]"},
                 {"action":"scroll-down", "locator":"//input[@value='Submit']"},
                 {"action":"custom-click", "locator":"//input[@value='Submit']"}
-
-
+        ]
+    },
+    "website37":{
+        "url":"https://www.dtadsolutions.com/start-a-campaign",
+        "steps":[
+            {"action":"fill", "locator":"//input[@name='Advertiser-Company-Name']", "value":"abcd tech"},
+            {"action":"fill", "locator":"//input[@name='First-Last-Name']", "value":"abc"},
+            {"action":"scroll-down", "locator":"//input[@name='First-Last-Name']"},
+            {"action":""}
         ]
     }
 
