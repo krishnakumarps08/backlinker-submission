@@ -553,17 +553,47 @@
             {"action":"fill", "locator":"//input[@name='website']", "value":"https://abcd.com"},
             {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abcd.com"},
             {"action":"fill","locator":"//input[@name='phone']", "value":"00000000"},
+            {"action":"scroll-down", "locator":"(//input[@type='submit'])[2]"},
             {"action":"custom-click", "locator":"(//input[@type='submit'])[2]"}
         ]
     },
     "website35":{
-        "url":"https://media.venturebeat.com/",
+        "url":"https://techcrunch.com/advertise/",
         "steps":[
-            {"action":"scroll-down", "locator":"//input[@id='company']"},
-            {"action":"fill", "locator":"//input[@id='company']", "value":"abcd"},
-            {"action":"fill", "locator":"//input[@id='first_name']", "value":"abc"},
-            {"action":"fill", "locator":"//input[@id='last_name']", "value":"efg"},
-            {"action":"fill", "locator":""}
+            {"action":"scroll-down", "locator":"//input[@name='firstname']"},
+            {"action":"fill", "locator":"//input[@name='firstname']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@name='lastname']", "value":"efgh"},
+            {"action":"fill", "locator":"(//input[@name='email'])[1]", "value":"abcd@abc.com"},
+            {"action":"fill", "locator":"//input[@name='company']", "value":"abcd tech"},
+            {"action":"select", "locator":"//select[@name='industry']", "value":"Artificial Intelligence / Machine Learning"},
+            {"action":"select", "locator":"//select[@name='job_function_']", "value":"Developer / Programmer"},
+            {"action":"fill", "locator":"//input[@name='jobtitle']", "value":"none"},
+            {"action":"scroll-down", "locator":"(//input[@class='hs-input'])[10]"},
+            {"action":"custom-click", "locator":"(//input[@class='hs-input'])[10]"},
+            {"action":"click", "locator":"(//input[@class='hs-input'])[14]"},
+            {"action":"click", "locator":"(//input[@type='checkbox'])[10]"},
+            {"action":"scroll-down", "locator":"//input[@type='submit']"},
+            {"action":"custom-click", "locator":"//input[@type='submit']"}
+
+            
+        ]
+    }, 
+    "website36":{
+        "url":"https://digg.com/advertising",
+        "steps":[
+                {"action":"scroll-down", "locator":"//input[@name='firstname']"},
+                {"action":"fill", "locator":"//input[@name='firstname']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@name='lastname']", "value":"efgh"},
+                {"action":"fill", "locator":"//input[@name='company']", "value":"tech"},
+                {"action":"fill","locator":"//input[@name='jobtitle']", "value":"CEO"},
+                {"action":"scroll-down", "locator":"//input[@name='email']"},
+                {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abcd.com"},
+                {"action":"select", "locator":"//select[@name='sales_audiences']", "value":"Business"},
+                {"action":"click", "locator":"(//input[@name='budget'])[1]"},
+                {"action":"scroll-down", "locator":"//input[@value='Submit']"},
+                {"action":"custom-click", "locator":"//input[@value='Submit']"}
+
+
         ]
     }
 

@@ -16,10 +16,10 @@ with open("user_data.json", "r") as f:
     data = json.load(f)
 
 try:
-    driver.get(data["website34"]["url"])
+    driver.get(data["website36"]["url"])
     driver.maximize_window()
 
-    for step in data["website34"]["steps"]:
+    for step in data["website36"]["steps"]:
         try:
             if step["action"] in ["click", "fill", "select"]:
                 element = WebDriverWait(driver, 10).until(
