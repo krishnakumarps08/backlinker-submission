@@ -1,0 +1,62 @@
+{
+    "website1":{
+        "url":"https://webrazzi.com/en/startup-form/",
+        "steps":[
+            {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"abcd@abc.com"},
+            {"action":"fill", "locator":"(//input[@type='text'])[3]", "value":"software tech"},
+            {"action":"fill", "locator":"(//input[@type='text'])[4]", "value":"https://abcd.com"},
+            {"action":"fill", "locator":"//textarea[@name='input[90]']", "value":"Startups are dynamic, high-growth businesses that play a pivotal role in driving innovation and economic progress."},
+            {"action":"fill", "locator":"//input[@type='date']", "value":"10/11/2018"},
+            {"action":"fill", "locator":"(//input[@type='text'])[5]", "value":"none"},
+            {"action":"iframe", "locator":"(//iframe[contains(@src,'https://www.google.com/recaptcha/')])[1]"},
+            {"action":"custom-click", "locator":"//button[@type='submit']"}
+        ]
+    },
+    "website2": {
+        "url": "https://sourceforge.net/user/registration",
+        "steps": [
+            {"action": "fill", "locator": "//input[@name='name']", "value": "abcd"},
+            {"action": "fill", "locator": "//input[@name='email']", "value": "abcdefgh@abc.com"},
+            {"action": "fill", "locator": "//input[@name='username']", "value": "abcd1234"},
+            {"action": "fill", "locator": "//input[@name='password']", "value": "ABCDEFG@123456"},
+            {"action": "fill", "locator": "//input[@name='password_confirm']", "value": "ABCDEFG@123456"},
+            {"action": "select", "locator": "//select[@name='country']", "value": "Sri Lanka"},
+            {"action": "click", "locator": "(//input[@type='checkbox'])[1]"},
+            {"action": "click", "locator": "//input[@value='Register']"}
+        ]
+    },
+    "website3":{
+        "url":"https://financesonline.com/add-product/",
+        "steps":[ 
+
+            {"action":"scroll-down", "locator":"//input[@placeholder='Your Name']"},
+            {"action":"fill", "locator":"//input[@placeholder='Your Name']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[contains(@placeholder,'Product Name')]", "value":"tech"},
+            {"action":"fill", "locator":"//input[contains(@placeholder,'Your Job')]", "value":"none"},
+            {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abc.com"},
+            {"action":"fill", "locator":"(//input[@type='text'])[5]", "value":"https://abcd.com"},
+            {"action": "dropdown", "locator": "//span[text()='Please choose your category']", "value": "AI Software"},
+            {"action":"dropdown", "locator":"//span[text()='Choose Your Monthly Advertising Budget']", "value":"Less than $1,000"},
+            {"action":"dropdown", "locator":"//span[text()='Please choose your time zone']", "value":"(GMT +5:30) Bombay"},
+            {"action":"iframe", "locator":"(//iframe[contains(@src,'https://www.google.com/recaptcha/')])[1]"},
+            {"action":"custom-click", "locator":"//input[@type='checkbox']"},
+            {"action":"click", "locator":"//input[@type='submit']"}
+
+        ]
+    },
+    "website4":{
+        "url":"https://tech.eu/startup-form/",
+        "steps":[
+            {"action":"fill", "locator":"(//input[@class='input-form'])[1]", "value":"abcd@abc.com"},
+            {"action":"fill", "locator":"(//input[@class='input-form'])[2]", "value":"abc tech"},
+            {"action":"fill", "locator":"(//input[@class='input-form'])[3]", "value":"https://abcd.com"},
+            {"action":"scroll-down", "locator":"(//textarea[@class='textarea-form'])[1]"},
+            {"action":"fill", "locator":"(//textarea[@class='textarea-form'])[1]", "value":"Startups are dynamic, high-growth businesses that play a pivotal role in driving innovation and economic progress."},
+            {"action":"fill", "locator":"//input[@type='date']", "value":"10/11/2018"},
+            {"action":"fill", "locator":"(//textarea[@class='textarea-form'])[2]", "value":"none"},
+            {"action":"iframe", "locator":"(//iframe[contains(@src,'https://www.google.com/recaptcha/')])[1]"},
+            {"action":"custom-click", "locator":"//button[@type='submit']"}
+
+        ]
+    }
+}

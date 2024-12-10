@@ -1,0 +1,112 @@
+// {"action":"custom-click", "locator":"//button[@class='confirm']"}
+
+
+
+{"action":"click","locator":"(//input[@type='radio'])[1]"},
+{"action":"click", "locator":"(//input[@type='checkbox'])[1]"},
+                {"action":"fill", "locator":"(//input[@class='wd-width-100'])[2]", "value":"abcd"},
+                {""}
+                {"action":"fill", "locator":"(//input[@class='wd-width-100'])[4]", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//textarea[@class='wd-width-100']", "value":"null"},
+                {"action":"custom-click", "locator":"(//button[@type='button'])[1]"}
+
+13
+                {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"abcd"},
+                {"action":"fill","locator":"(//input[@type='text'])[2]", "value":"abcd@abc.com"},
+                {"action":"fill","locator":"(//input[@type='text'])[3]","value":"abcd technologies"},
+                {"action":"fill", "locator":"(//input[@type='text'])[4]", "value":"00000000"},
+                {"action":"fill", "locator":"(//input[@type='text'])[5]", "value":"https://abce.com"},
+                {"action":"fill", "locator":"//input[@type='password']", "value":"Abcd@1234"},
+                {"action":"custom-click", "locator":"(//button[@type='submit'])[1]"},
+                {"action":"click", "locator":"(//span[@role='combobox'])[1]"},
+                {"action":"scroll-down","locator":"//li[text()='Bengaluru']" },
+                {"action":"click","locator":"//li[text()='Bengaluru']"},
+                {"action":"select", "locator":"(//select[@type='text'])[2]", "value":"10-49"},
+                {"action":"select", "locator":"//select[@placeholder='No. of Customers *']", "value":"25-50"},
+                {"action":"click", "locator":"//span[@title='Select Software Category']"},
+                {"action":"scroll-down", "locator":"//li[text()='AI Agent']"},
+                {"action":"click", "locator":"//li[text()='AI Agent']"},
+                {"action":"click", "locator":"//textarea[@type='search']"},
+                {"action":"click", "locator":"//li[text()='AgentGPT']"},
+                {"action":"click", "locator":"(//button[@type='submit'])[2]"}
+
+
+                def create_and_connect_to_browser():
+    host = '127.0.0.1'
+    api_key = 'xxxxxxx' # your api-key
+    config = {
+        'once': True,
+        'headless': False, # headless
+        'autoClose': True,
+        'remoteDebuggingPort': 9226,
+        'userAgent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'fingerprint': {  # required
+            'name': 'custom browser',
+            'platform': 'windows', # support: windows, mac, linux
+            'kernel': 'chromium', # only support: chromium
+            'kernelMilestone': '120',
+            'hardwareConcurrency': 4, # support: 2, 4, 8, 10, 12, 14, 16
+            'deviceMemory': 4, # support: 2, 4, 8
+            'proxy': '', # input format: schema://user:password@host:port eg: http://user:password@localhost:8080
+        }
+    }
+    query = urlencode({
+        'x-api-key': api_key, # required
+        'config': quote(json.dumps(config))
+    })
+
+    url = f'http://{host}:8848/devtool/launch?{query}'
+    print('devtool url: ' + url)
+
+    port = get_debugger_port(url)
+    debugger_address = f'{host}:{port}'
+    print("debugger_address: " + debugger_address)
+
+
+
+    {"action":"fill", "locator":"//input[@placeholder='Your name']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@id='formLastName']", "value":"efgh"},
+                {"action":"fill", "locator":"(//input[@type='password'])[1]", "value":"Abcd@1234"},
+                {"action":"fill", "locator":"(//input[@type='password'])[2]", "value":"Abcd@1234"},
+                {"action":"fill","locator":"//input[@class='select__input']", "value":"Startup"},
+                {"action":"click","locator":"//span[text()='I agree to the']"},
+                {"action":"custom-click", "locator":"//button[@type='submit']"}
+
+
+
+                 {"action":"scroll-down", "locator":"(//input[@name='boardmembers'])[2]"},
+            {"action":"click","locator":"(//input[@name='boardmembers'])[2]"},
+            {"action":"scroll-down", "locator":"//input[@name='user']"},
+            {"action":"fill", "locator":"//input[@name='user']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abc.com"},
+            {"action":"fill", "locator":"(//input[@class='form-control'])[6]", "value":"5"},
+            {"action":"scroll-down", "locator":"//input[@type='submit']"},
+            {"action":"custom-click", "locator":"//input[@type='submit']"}
+
+
+            "website1": {
+        "url": "https://sourceforge.net/user/registration",
+        "steps": [
+            {"action": "fill", "locator": "//input[@name='name']", "value": "abcd"},
+            {"action": "fill", "locator": "//input[@name='email']", "value": "balegrigroucre-5268@yopmail.com"},
+            {"action": "fill", "locator": "//input[@name='username']", "value": "abcd1234"},
+            {"action": "fill", "locator": "//input[@name='password']", "value": "Abcd@1234"},
+            {"action": "fill", "locator": "//input[@name='password_confirm']", "value": "Abcd@1234"},
+            {"action": "select", "locator": "//select[@name='country']", "value": "Sri Lanka"},
+            {"action": "click", "locator": "(//input[@type='checkbox'])[1]"},
+            {"action": "click", "locator": "//input[@value='Register']"}
+        ]
+    },
+
+
+
+    {"action":"scroll-down", "locator":"//input[@name='Field3']"},
+                {"action":"fill", "locator":"//input[@id='Field1']", "value":"ai support"},
+                {"action":"fill", "locator":"//input[@name='Field3']", "value":"https://abcd.com"},
+                {"action":"scroll-down", "locator":"//input[@id='Field5']"}
+
+
+
+                {"action":"fill", "locator":"//input[@name='website']", "value":"https://abcd.com"},
+            {"action":"fill", "locator":"//input[@name='company_address']", "value":"none"},
+            {"action":"custom-click", "locator":"//button[@type='submit']"}

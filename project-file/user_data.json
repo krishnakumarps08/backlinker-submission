@@ -1,0 +1,572 @@
+{
+    "website2":{
+        "url":"https://e27.co/",
+        "steps":[
+                {"action":"click", "locator":"(//div[text()='Work with us'])[1]"},
+                {"action":"fill", "locator":"//input[@type='text']", "value":"abcd"},
+                {"action":"click", "locator":"(//span[text()='OK'])[1]"},
+                {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abc.com"},
+                {"action":"click", "locator":"(//span[text()='OK'])[2]"},
+                {"action":"fill", "locator":"(//input[@type='text'])[1]", "value":"abcd technologies"},
+                {"action":"click", "locator":"(//span[text()='OK'])[2]"},
+                {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"asia"},
+                {"action":"click", "locator":"//span[text()='Other Asia country']"},
+                {"action":"fill", "locator":"//input[@type='url']", "value":"https://abcd.com"},
+                {"action":"click", "locator":"(//span[text()='OK'])[2]"},
+                {"action":"fill", "locator":"//input[@type='text']", "value":"null"},
+                {"action":"click", "locator":"(//span[text()='OK'])[2]"},
+                {"action":"fill", "locator":"//textarea[@placeholder='Type your answer here...']", "value":"null"},
+                {"action":"click", "locator":"(//span[text()='OK'])[2]"},
+                {"action":"click","locator":"//span[text()='A']"},
+                {"action":"click", "locator":"(//span[text()='OK'])[2]"},
+                {"action":"fill", "locator":"//input[@type='text']", "value":"2000"},
+                {"action":"click","locator":"//span[text()='Submit']"}
+        ]
+    },
+    "website3":{
+        "url":"https://siliconangle.com/",
+        "steps":[
+            {"action": "scroll-down", "locator":"//a[text()='Send us a News tip']"},
+            {"action":"click", "locator":"//a[text()='Send us a News tip']"},
+            {"action":"fill", "locator":"(//input[@type='text'])[1]", "value":"abcd"},
+            {"action":"fill","locator":"(//input[@type='text'])[2]", "value":"efgh"},
+            {"action":"select", "locator":"//select[@name='input_5']", "value":"Emerging Technology"},
+            {"action":"fill","locator":"(//input[@name='input_3'])[1]", "value":"abcd@abc.com"},
+            {"action":"fill", "locator":"//textarea[@name='input_4']", "value":"null"},
+            {"action":"scroll-down", "locator":"//input[@type='file']"},
+            {"action":"upload", "locator":"//input[@type='file']", "value":"C:/ampcome/Backlinker-submission/project-file/dummy.pdf"},
+            {"action":"click", "locator":"(//input[@type='submit'])[1]"}
+        ]
+    },
+    "website4":{
+        "url":"https://list.ly/",
+        "steps":[
+                {"action":"click", "locator":"(//button[@type='button'])[3]"},
+                {"action":"click", "locator":"//a[text()='Sign Up']"},
+                {"action":"fill", "locator":"(//input[@type='email'])[2]", "value":"m@abcd.com"},
+                {"action":"fill", "locator":"(//input[@type='password'])[2]", "value":"Abcd@1234"},
+                {"action":"fill", "locator":"(//input[@type='password'])[3]", "value":"Abcd@1234"},
+                {"action":"custom-click", "locator":"//button[text()='Sign Up']"},
+                {"action":"custom-click", "locator":"//button[contains(text(),'MAKE')]"},
+                {"action":"fill", "locator":"//input[@id='pickin_title']","value":"abcd technologies"},
+                {"action":"select", "locator":"//select[@id='pickin_default_layout']", "value":"List (Simple list layout, small images)"},
+                {"action":"fill", "locator":"//textarea[@id='pickin_description']", "value":"null"},
+                {"action":"fill", "locator":"(//input[@type='text'])[3]", "value":"tech"},
+                {"action":"custom-click", "locator":"//a[text()='Got it!']"},
+                {"action":"custom-click", "locator":"//input[@name='commit']"},
+                {"action":"custom-click", "locator":"//a[contains(text(),'Take me to my Listly')]"},
+                {"action":"custom-click", "locator":"//button[@class='confirm']"}
+        ]
+    },
+        "website5":{
+            "url":"https://taalk.com/",
+            "steps":[
+                {"action":"scroll-down", "locator":"//h3[text()='ABOUT US']"},
+                {"action":"click", "locator":"//span[text()='Submit your Startup']"},
+                {"action":"iframe", "locator":"//iframe[contains(@src, 'https://docs.google.com/forms/')]"},
+                {"action":"scroll-down", "locator":"//input[@type='email']"},
+                {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"(//input[@class='whsOnd zHQkBf'])[2]", "value":"technology"},
+                {"action":"fill", "locator":"//input[@type='url']", "value":"https://abcd.com"},
+                {"action":"fill", "locator":"(//textarea[@class='KHxj8b tL9Q4c'])[3]", "value":"none"},
+                {"action":"fill", "locator":"(//input[@class='whsOnd zHQkBf'])[6]", "value":"10"},
+                {"action":"fill", "locator":"(//input[@class='whsOnd zHQkBf'])[7]", "value":"chennai"},
+                {"action":"click", "locator":"//span[text()='Yes']"},
+                {"action":"click", "locator":"//span[text()='Submit']"}
+            ]
+        },
+        "website6":{
+            "url":"https://www.addictivetips.com/tip-us/",
+            "steps":[
+                {"action":"fill", "locator":"//input[@name='your-name']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@name='your-email']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//input[@name='your-subject']", "value":"abcde"},
+                {"action":"fill", "locator":"//textarea[@name='your-message']", "value":"none"},
+                {"action":"click", "locator":"//input[@type='submit']"}
+            ]
+        },
+        "website7":{
+            "url":"https://www.discovercloud.com/",
+            "steps":[
+                {"action":"scroll-down", "locator":"(//a[contains(text(),'Advertise with us')])[1]"},
+                {"action":"custom-click", "locator":"(//a[contains(text(),'Advertise with us')])[1]"},
+                {"action":"scroll-down","locator":"(//input[@value='Start now'])[2]"},
+                {"action":"click","locator":"(//input[@value='Start now'])[2]"},
+                {"action":"fill", "locator":"//input[@placeholder='First Name*']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@placeholder='Last Name*']", "value":"efgh"},
+                {"action":"fill", "locator":"//input[@placeholder='Email*']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//input[@placeholder='Company Name*']", "value":"abcd technologies"},
+                {"action":"fill", "locator":"//input[@placeholder='Phone']", "value":"00000000"},
+                {"action":"click", "locator":"(//span[@class='ng-binding'])[1]"},
+                {"action":"dropdown", "locator":"//a[contains(text(), '11-50')]"},
+                {"action":"custom-click", "locator":"//label[text()='Asia']"},
+                {"action":"custom-click", "locator":"//label[text()='Startups']"},
+                {"action":"custom-click", "locator":"//label[text()='5000 - 10,000']"},
+                {"action":"click","locator":"//input[@value='Submit']"}
+
+            ]
+        },
+        "website8":{
+            "url":"https://betakit.com/",
+            "steps":[
+                {"action":"custom-click","locator":"//button[@aria-label='Close dialog']"},
+                {"action":"scroll-down", "locator":"//a[text()='Send a tip']"},     
+                {"action":"custom-click", "locator":"//a[text()='Send a tip']"},
+                {"action":"scroll-down", "locator":"//input[@type='text']"},
+                {"action":"fill","locator":"//input[@type='text']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//textarea[@class='KHxj8b tL9Q4c']", "value":"null"},
+                {"action":"custom-click", "locator":"//span[text()='Submit']"}
+               
+            ]
+        },
+        "website9":{
+            "url":"https://www.g2.com/",
+            "steps":[
+                {"action":"scroll-down", "locator":"//div[text()='Claim Your G2 Profile']"},
+                {"action":"custom-click", "locator":"//div[text()='Claim Your G2 Profile']"},
+                {"action":"scroll-down","locator":"//a[text()='Get started now']"},
+                {"action":"custom-click", "locator":"//a[text()='Get started now']"},
+                {"action":"fill", "locator":"//input[@id='Email']", "value":"balegrigroucre-5268@yopmail.com"},
+                {"action":"fill", "locator":"//input[@id='Company']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@id='FirstName']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@id='LastName']", "value":"efgh"},
+                {"action":"select", "locator":"//select[@name='ZI_Employees__c_lead']", "value":"11-50 employees"},
+                {"action":"select","locator":"//select[@name='Country']", "value":"India"},
+                {"action":"select","locator":"//select[@id='Job_Function__c']", "value":"Other"},
+                {"action":"select", "locator":"//select[@id='Job_Level__c']", "value":"Director"},
+                {"action":"fill", "locator":"//input[@name='Phone']", "value":"00000000"},
+                {"action":"click", "locator":"//input[@name='emailOptIn']"},
+                {"action":"custom-click", "locator":"//button[@type='submit']"}
+            ]
+        },
+        "website10":{
+            "url":"https://www.eu-startups.com/",
+            "steps":[
+                {"action":"scroll-down","locator":"//a[contains(text(),'advertising options')]"},
+                {"action":"click", "locator":"//a[contains(text(),'advertising options')]"},
+                {"action":"scroll-down", "locator":"(//input[@type='text'])[7]"},
+                {"action":"fill","locator":"(//input[@class='wd-width-100'])[1]", "value":"abcd"},
+                {"action":"click","locator":"(//input[@type='radio'])[1]"},
+                {"action":"click", "locator":"(//input[@type='checkbox'])[1]"},
+                {"action":"fill", "locator":"(//input[@class='wd-width-100'])[2]", "value":"abcd"},
+                {"action":"fill", "locator":"(//input[@class='wd-width-100'])[3]", "value":"efgh"},
+                {"action":"fill", "locator":"(//input[@class='wd-width-100'])[4]", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//textarea[@class='wd-width-100']", "value":"null"},
+                {"action":"custom-click", "locator":"(//button[@type='button'])[1]"}
+              
+
+            ]
+        },
+        "website11":{
+            "url":"https://www.softwareadvice.com/",
+            "steps":[
+                {"action":"custom-click", "locator":"//button[text()='Get Started']"},
+                {"action":"fill", "locator":"//input[@name='firstName']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@name='lastName']", "value":"efgh"},
+                {"action":"fill", "locator":"//input[@name='title']", "value":"null"},
+                {"action":"fill", "locator":"//input[@name='workEmail']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//input[@name='phone']","value":"00000000"},
+                {"action":"fill", "locator":"//input[@name='companyName']", "value":"abcd technologies"},
+                {"action":"fill", "locator":"//input[@name='productName']", "value":"null"},
+                {"action":"fill", "locator":"//input[@name='website']", "value":"null"},
+                {"action":"select", "locator":"//select[@name='targetMarket']", "value":"Other"},
+                {"action":"select", "locator":"//select[@name='country']", "value":"India"},
+                {"action":"click", "locator":"(//input[@type='checkbox'])[1]"},
+                {"action":"custom-click", "locator":"//button[text()='Finish']"}
+
+            ]
+        },
+        "website12":{
+            "url":"https://springwise.com/",
+            "steps":[
+                {"action":"scroll-down", "locator":"//a[text()='Submit an Innovation']"},
+                {"action":"custom-click", "locator":"//a[text()='Submit an Innovation']"},
+                {"action":"scroll-down", "locator":"//input[@name='fullname']"},
+                {"action":"fill", "locator":"//input[@name='fullname']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"(//input[@type='text'])[4]", "value":"null"},
+                {"action":"fill","locator":"(//input[@type='text'])[5]", "value":"null"},
+                {"action":"fill", "locator":"//textarea[@placeholder='Describe the innovation ']", "value":"null"},
+                {"action":"click", "locator":"//div[@aria-label='Close dialog']"},
+                {"action":"custom-click", "locator":"//button[@type='submit']"}
+            ]
+        },
+        "website13":{
+            "url":"https://www.featuredcustomers.com/",
+            "steps":[
+                {"action":"scroll-down", "locator":"(//a[text()='Add Your Company'])[2]"},
+                {"action":"custom-click", "locator":"(//a[text()='Add Your Company'])[2]"},
+                {"action":"fill", "locator":"//input[@id='first_name']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@placeholder='Doe']", "value":"efgh"},
+                {"action":"fill", "locator":"//input[@placeholder='Company Name']", "value":"abcd technologies"},
+                {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abc.com"},
+                {"action":"custom-click", "locator":"//a[@id='CybotCookiebotDialogBodyButtonAccept']"},
+                {"action":"fill", "locator":"//input[@type='tel']", "value":"00000000"},
+                {"action":"custom-click", "locator":"//button[@class='submit']"}
+            ]
+        },
+        "website14":{
+            "url":"https://www.crowdreviews.com/",
+            "steps":[
+                    {"action":"scroll-down", "locator":"//a[@id='register-footer']"},
+                    {"action":"custom-click", "locator":"//a[@id='register-footer']"},
+                    {"action":"fill", "locator":"//input[@id='signupvendornewform-company']", "value":"abcd"},
+                    {"action":"fill", "locator":"//input[@id='signupvendornewform-website']", "value":"https://abcd.com/"},
+                    {"action":"fill", "locator":"//input[@id='signupvendornewform-email']", "value":"balegrigroucre-5268@yopmail.com"},
+                    {"action":"fill", "locator":"//input[@id='signupvendornewform-phone']", "value":"00000000"},
+                    {"action":"fill", "locator":"//input[@id='signupvendornewform-contact']", "value":"abcd"},
+                    {"action":"click", "locator":"//label[text()='Software']"},
+                    {"action":"custom-click", "locator":"//input[@value='Register']"}
+            ]
+        },
+        "website15":{
+            "url":"https://www.business-software.com/",
+            "steps":[
+                {"action":"scroll-down", "locator":"//a[text()='Add Your Product']"},
+                {"action":"custom-click", "locator":"//a[text()='Add Your Product']"},
+                {"action":"scroll-down", "locator":"//input[@name='full_name']"},
+                {"action":"fill", "locator":"//input[@name='full_name']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//input[@name='new-field']", "value":"tech"},
+                {"action":"fill", "locator":"//input[@name='product-name']", "value":"none"},
+                {"action":"fill", "locator":"//input[@name='captcha_code']", "value":"9UL7"},
+                {"action":"custom-click","locator":"(//input[@type='submit'])[3]"}
+            ]
+        },
+        "website16":{
+            "url":"https://www.valuer.ai/puma",
+            "steps":[
+                {"action":"custom-click", "locator":"//a[contains(text(),'Accept cookies')]"},
+                {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abcd.com"},
+                {"action":"select", "locator":"//select[@name='area_of_work']", "value":"Technology"},
+                {"action":"fill", "locator":"//input[@name='firstname']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@name='lastname']", "value":"efgh"},
+                {"action":"select", "locator":"//select[@name='company_employees_size']", "value":"11--50"},
+                {"action":"fill", "locator":"//input[@name='jobtitle']","value":"null"},
+                {"action":"custom-click", "locator":"//p[contains(text(), 'I consent to receive updates from Valuer.ai.')]"},
+                {"action":"custom-click", "locator":"//input[@type='submit']"}
+
+            ]
+        },      
+        "website17":{
+        "url":"https://web3canvas.com/submit/",
+        "steps":[
+            {"action":"scroll-down", "locator":"//input[@name='your-name']"},
+            {"action":"fill", "locator":"//input[@name='your-name']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@name='your-email']", "value":"abcd@abcd.com"},
+            {"action":"fill", "locator":"//input[@name='your-subject']", "value":"ai support"},
+            {"action":"fill", "locator":"//input[@name='your-folio']", "value":"https://abcd.com"},
+            {"action":"select", "locator":"//select[@name='category-menu']", "value":"Guest Post"},
+            {"action":"fill", "locator":"//textarea[@name='your-message']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@name='your-bio']", "value":"none"},
+            {"action":"custom-click", "locator":"//input[@type='submit']"}
+        ]
+    },
+    "website18":{
+        "url":"https://www.activesearchresults.com/",
+        "steps":[
+            {"action":"custom-click", "locator":"//a[contains(text(),'Add a Website')]"},
+            {"action":"fill", "locator":"//input[@name='url']", "value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"//input[@name='email']", "value":"name@domain.com"},
+            {"action":"custom-click", "locator":"//input[@value='Submit']"}
+        ]
+    },
+    "website19":{
+        "url":"http://techfaster.com/",
+        "steps":[
+            {"action":"custom-click", "locator":"(//span[@class='menu-text'])[4]"},
+            {"action":"scroll-down", "locator":"//input[@id='ninja_forms_field_38']"},
+            {"action":"fill", "locator":"//input[@id='ninja_forms_field_37']", "value":"abcde"},
+            {"action":"fill", "locator":"//input[@id='ninja_forms_field_38']", "value":"abcd@abcd.com"},
+            {"action":"fill", "locator":"//input[@id='ninja_forms_field_40']", "value":"abcd technologies"},
+            {"action":"fill", "locator":"//input[@id='ninja_forms_field_41']", "value":"https://abcd.com"},
+            {"action":"fill", "locator":"//input[@id='ninja_forms_field_42']", "value":"chennai"},
+            {"action":"fill", "locator":"//input[@id='ninja_forms_field_44']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_45']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_46']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_54']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_50']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_48']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_49']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_51']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@id='ninja_forms_field_52']", "value":"none"},
+            {"action":"fill", "locator":"//input[@id='ninja_forms_field_55']", "value":"16"},
+            {"action":"custom-click", "locator":"(//input[@type='submit'])[2]"}
+
+        ]
+    },
+    "website20":{
+        "url":"https://www.saasworthy.com/",
+        "steps":[
+                {"action":"custom-click", "locator":"(//span[@title='List Your Product'])[1]"},
+                {"action":"scroll-down","locator":"(//span[@title='Get Started'])[3]"},
+                {"action":"click", "locator":"(//span[@title='Get Started'])[3]"},
+                {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"abcd"},
+                {"action":"fill", "locator":"(//input[@type='text'])[3]", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"(//input[@type='text'])[4]","value":"https://www.example.com/mypage.html"},
+                {"action":"fill", "locator":"(//input[@type='text'])[5]", "value":"ai support"},
+                {"action":"custom-click", "locator":"(//button[@type='button'])[1]"}
+        ]   
+    }, 
+    "website21":{
+        "url":"https://www.launchingnext.com/",
+        "steps":[
+            {"action":"custom-click", "locator":"//a[@class='btn btn-success']"},
+            {"action":"scroll-down", "locator":"(//input[@class='form-control'])[3]"},
+            {"action":"fill", "locator":"(//input[@class='form-control'])[1]", "value":"abcd"},
+            {"action":"fill", "locator":"(//input[@class='form-control'])[2]", "value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"(//input[@class='form-control'])[3]", "value":"Nothing"},
+            {"action":"fill", "locator":"//textarea[@name='fulldescription']", "value":"Nothing"},
+            {"action":"fill", "locator":"(//textarea[@class='form-control'])[2]", "value":"Nothing"},
+            {"action":"scroll-down", "locator":"(//input[@name='funding'])[2]"},
+            {"action":"custom-click", "locator":"(//input[@name='funding'])[2]"},
+            {"action":"scroll-down", "locator":"(//input[@name='boardmembers'])[2]"},
+            {"action":"custom-click","locator":"(//input[@name='boardmembers'])[2]"},
+            {"action":"scroll-down", "locator":"//input[@name='user']"},
+            {"action":"fill", "locator":"//input[@name='user']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abc.com"},
+            {"action":"fill", "locator":"(//input[@class='form-control'])[6]", "value":"5"},
+            {"action":"scroll-down", "locator":"//input[@type='submit']"},
+            {"action":"custom-click", "locator":"//input[@type='submit']"}
+
+        ]
+    },
+    "website22":{
+        "url":"https://www.classicalfinance.com/your-story/",
+        "steps":[
+            {"action":"fill", "locator":"(//textarea[@name='message'])[1]", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@type='text']", "value":"abcd@abc.com"},
+            {"action":"fill","locator":"(//textarea[@name='message'])[2]", "value":"https://www.example.com/mypage.html"},
+            {"action":"custom-click", "locator":"//button[@type='submit']"}
+        ]
+    },
+    "website23":{
+            "url":"https://www.new-startups.com/promote-your-startup-company/",
+            "steps":[
+                {"action":"scroll-down", "locator":"(//input[@type='text'])[1]"},
+                {"action":"fill", "locator":"(//input[@type='text'])[1]", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abcd.com"},
+                {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"abcd technologies"},
+                {"action":"fill","locator":"(//input[@type='text'])[3]", "value":"none"},
+                {"action":"fill", "locator":"(//input[@type='text'])[4]", "value":"https://www.example.com/mypage.html"},
+                {"action":"scroll-down", "locator":"(//input[@type='text'])[5]"},
+                {"action":"fill", "locator":"(//input[@type='text'])[5]", "value":"abc"},
+                {"action":"fill", "locator":"(//input[@type='text'])[6]", "value":"none"},
+                {"action":"fill", "locator":"(//input[@type='text'])[7]", "value":"none"},
+                {"action":"fill", "locator":"(//input[@type='text'])[8]", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@id='nf-field-39']", "value":"none"},
+                {"action":"fill", "locator":"(//input[@type='text'])[9]", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@name='nf-field-49']", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@name='nf-field-48']", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@name='nf-field-56']", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@name='nf-field-60']", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@name='nf-field-64']", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@name='nf-field-66']", "value":"none"},
+                {"action":"custom-click", "locator":"//input[@name='nf-field-15']"},
+                {"action":"custom-click", "locator":"//input[@name='nf-field-99']"},
+                {"action":"fill", "locator":"//input[@id='nf-field-11']", "value":"4"},
+                {"action":"custom-click", "locator":"//input[@value='Submit']"}
+            ]
+    },
+    "website24":{
+        "url":"https://topsoftwarecompanies.co/",
+        "steps":[
+            {"action":"custom-click", "locator":"(//a[text()='Get Listed'])[2]"},
+            {"action":"fill", "locator":"//input[@name='name']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abcd.com"},
+            {"action":"fill", "locator":"//input[@name='company_name']", "value":"abcd technologies"},
+            {"action":"fill", "locator":"//input[@name='website']", "value":"https://abcd.com"},
+            {"action":"fill", "locator":"//input[@name='company_address']", "value":"none"},
+            {"action":"custom-click", "locator":"//button[@type='submit']"}
+            
+        ]
+    },
+    "website25":{
+        "url":"https://howbrandsarebuilt.com/submit/",
+        "steps":[
+                {"action":"scroll-down","locator":"//input[@name='your-name']"},
+                {"action":"fill", "locator":"//input[@name='your-name']", "value":"abcd"},
+                {"action":"fill", "locator":"//input[@name='your-name2']", "value":"efgh"},
+                {"action":"fill", "locator":"(//input[@name='your-email'])[1]", "value":"abcd@abcd.com"},
+                {"action":"fill", "locator":"//input[@name='your-subject']", "value":"none"},
+                {"action":"fill", "locator":"//textarea[@name='your-message']", "value":"none"},
+                {"action":"click", "locator":"(//input[@type='checkbox'])[1]"},
+                {"action":"custom-click", "locator":"(//input[@type='submit'])[1]"}
+        ]
+    },
+    "website26":{
+        "url":"https://startupcollections.com/submit-product/",
+        "steps":[
+                {"action":"iframe", "locator":"//iframe[contains(@src, 'https://docs.google.com/forms/')]"},
+                {"action":"scroll-down", "locator":"(//input[@class='whsOnd zHQkBf'])[1]"},
+                {"action":"fill", "locator":"(//input[@class='whsOnd zHQkBf'])[1]", "value":"abc"},
+                {"action":"fill", "locator":"(//input[@class='whsOnd zHQkBf'])[2]", "value":"https://www.example.com/mypage.html"},
+                {"action":"fill", "locator":"//textarea[@class='KHxj8b tL9Q4c']", "value":"none"},
+                {"action":"scroll-down", "locator":"(//input[@class='whsOnd zHQkBf'])[3]"},
+                {"action":"fill", "locator":"(//input[@class='whsOnd zHQkBf'])[3]", "value":"abcd"},
+                {"action":"fill", "locator":"(//input[@type='text'])[4]", "value":"abcd@abcd.com"},
+                {"action":"scroll-down", "locator":"//span[text()='Submit']"},
+                {"action":"custom-click", "locator":"//span[text()='Submit']"}
+                
+        ]
+    },
+    "website27":{
+        "url":"https://launched.io/SubmitStartup",
+        "steps":[
+            {"action":"scroll-down", "locator":"//input[@name='productname']"},
+            {"action":"fill", "locator":"//input[@name='productname']","value":"abcde"},
+            {"action":"fill", "locator":"//input[@name='pitch']", "value":"none"},
+            {"action":"scroll-down", "locator":"//input[@name='website']"},
+            {"action":"fill", "locator":"//input[@name='website']", "value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"//textarea[@name='description']", "value":"none"},
+            {"action":"scroll-down", "locator":"//input[@name='pitchVideo']"},
+            {"action":"upload", "locator":"//input[@type='file']", "value":"C:/ampcome/Backlinker-submission/project-file/dummy.pdf"},
+            {"action":"fill", "locator":"//input[@name='pitchVideo']", "value":"none"},
+            {"action":"fill", "locator":"//input[@name='location']", "value":"none"},
+            {"action":"fill", "locator":"//input[@name='industry']", "value":"none"},
+            {"action":"scroll-down", "locator":"//input[@name='email']"},
+            {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abcd.com"},
+            {"action":"click", "locator":"//input[@name='interestedForSale']"},
+            {"action":"custom-click", "locator":"//input[@type='submit']"}
+        ]
+    },
+    "website28":{
+        "url":"https://www.viralindiandiary.com/submit-here/",
+        "steps":[
+                {"action":"scroll-down", "locator":"//input[@id='user-submitted-name']"},
+                {"action":"fill", "locator":"//input[@id='user-submitted-name']","value":"abcd"},
+                {"action":"fill", "locator":"//input[@id='user-submitted-email']", "value":"abcd@abc.com"},
+                {"action":"fill", "locator":"//input[@id='user-submitted-url']", "value":"https://www.example.com/mypage.html"},
+                {"action":"scroll-down", "locator":"//input[@id='user-submitted-title']"},
+                {"action":"fill", "locator":"//input[@id='user-submitted-title']", "value":"none"},
+                {"action":"fill", "locator":"//input[@id='user-submitted-captcha']", "value":"101"},
+                {"action":"scroll-down", "locator":"//textarea[@id='user-submitted-content']"},
+                {"action":"fill","locator":"//textarea[@id='user-submitted-content']", "value":"none"},
+                {"action":"scroll-down", "locator":"//input[@type='submit']"},
+                {"action":"custom-click", "locator":"//input[@type='submit']"}
+        ]
+    },
+    "website29":{
+        "url":"https://www.thestartupinc.com/submit-startup/",
+        "steps":[
+            {"action":"scroll-down", "locator":"//input[@name='startup-name']"},
+            {"action":"fill", "locator":"//input[@name='startup-name']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@name='define-startup']", "value":"tech"},
+            {"action":"fill", "locator":"//input[@name='dfounding-date']", "value":"10/02/2019"},
+            {"action":"scroll-down","locator":"//input[@name='industry']" },
+            {"action":"fill", "locator":"//input[@name='industry']", "value":"tech"},
+            {"action":"select", "locator":"//select[@name='number-employees']", "value":"11-50"},
+            {"action":"fill", "locator":"//input[@name='email-id']", "value":"abcd@abcd.com"},
+            {"action":"fill", "locator":"//input[@name='startup-website']", "value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"//textarea[@name='about-startup']", "value":"Startups are dynamic, high-growth businesses that play a pivotal role in driving innovation and economic progress. Typically characterized by their pursuit of scalable business models, startups often emerge from the desire to solve specific problems or disrupt established markets with novel ideas. They operate in an environment of uncertainty and experimentation, where creativity, agility, and adaptability are essential for survival and growth. Unlike traditional businesses, startups prioritize rapid development, often relying on lean methodologies to test and refine their products or services while minimizing costs.The ecosystem surrounding startups is integral to their success, comprising investors, mentors, accelerators, and incubators. Funding, whether through venture capital, angel investors, or crowdfunding, is a critical lifeline that enables startups to scale operations and innovate. Startups often thrive in hubs like Silicon Valley, where a culture of collaboration, competition, and risk-taking fosters their development.One of the defining traits of startups is their emphasis on technology and digital transformation. Many startups leverage cutting-edge advancements in fields like artificial intelligence, biotechnology, and blockchain to address unmet needs. Despite their potential, startups face numerous challenges, including market competition, financial constraints, and scaling difficulties.The impact of startups extends beyond economic benefits. They drive societal change, create jobs, and inspire entrepreneurial spirit globally. By challenging the status quo and embracing disruption, startups contribute to a more innovative and inclusive world, shaping the future across industries and geographies. Their journey, though fraught with risks, remains a compelling story of resilience and ambition."},
+            {"action":"fill", "locator":"//textarea[@name='startup-problems-solve']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@name='service-for']", "value":"none"},
+            {"action":"fill","locator":"//textarea[@name='standout-crowd']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@name='future-plan']", "value":"none"},
+            {"action":"fill", "locator":"//textarea[@name='about-founders']", "value":"Startups are dynamic, high-growth businesses that play a pivotal role in driving innovation and economic progress. Typically characterized by their pursuit of scalable business models, startups often emerge from the desire to solve specific problems or disrupt established markets with novel ideas. They operate in an environment of uncertainty and experimentation, where creativity, agility, and adaptability are essential for survival and growth. Unlike traditional businesses, startups prioritize rapid development, often relying on lean methodologies to test and refine their products or services while minimizing costs.The ecosystem surrounding startups is integral to their success, comprising investors, mentors, accelerators, and incubators. Funding, whether through venture capital, angel investors, or crowdfunding, is a critical lifeline that enables startups to scale operations and innovate. Startups often thrive in hubs like Silicon Valley, where a culture of collaboration, competition, and risk-taking fosters their development.One of the defining traits of startups is their emphasis on technology and digital transformation. Many startups leverage cutting-edge advancements in fields like artificial intelligence, biotechnology, and blockchain to address unmet needs. Despite their potential, startups face numerous challenges, including market competition, financial constraints, and scaling difficulties.The impact of startups extends beyond economic benefits. They drive societal change, create jobs, and inspire entrepreneurial spirit globally. By challenging the status quo and embracing disruption, startups contribute to a more innovative and inclusive world, shaping the future across industries and geographies. Their journey, though fraught with risks, remains a compelling story of resilience and ambition."},
+            {"action":"custom-click", "locator":"//input[@value='Submit Startup']"}
+
+
+        ]
+    },
+    "website30":{
+        "url":"https://www.howtobuysaas.com/list-your-saas/",
+        "steps":[
+            {"action":"scroll-down", "locator":"//input[@placeholder='Company Name']"},
+            {"action":"fill", "locator":"//input[@placeholder='Company Name']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@placeholder='SaaS Product Name']", "value":"abcd"},
+            {"action":"fill", "locator":"(//input[@placeholder='SaaS Website URL'])[2]", "value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"(//input[@type='email'])[2]", "value":"abcd@abcd.com"},
+            {"action":"fill", "locator":"//textarea[contains(@placeholder,'Brief Product')]", "value":"Startups are dynamic, high-growth businesses that play a pivotal role in driving innovation and economic progress. Typically characterized by their pursuit of scalable business models, startups often emerge from the desire to solve specific problems or disrupt established markets with novel ideas. They operate in an environment of uncertainty and experimentation, where creativity, agility, and adaptability are essential for survival and growth. Unlike traditional businesses, startups prioritize rapid development, often relying on lean methodologies to test and refine their products or services while minimizing costs.The ecosystem surrounding startups is integral to their success, comprising investors, mentors, accelerators, and incubators. Funding, whether through venture capital, angel investors, or crowdfunding, is a critical lifeline that enables startups to scale operations and innovate. Startups often thrive in hubs like Silicon Valley, where a culture of collaboration, competition, and risk-taking fosters their development.One of the defining traits of startups is their emphasis on technology and digital transformation. Many startups leverage cutting-edge advancements in fields like artificial intelligence, biotechnology, and blockchain to address unmet needs. Despite their potential, startups face numerous challenges, including market competition, financial constraints, and scaling difficulties.The impact of startups extends beyond economic benefits. They drive societal change, create jobs, and inspire entrepreneurial spirit globally. By challenging the status quo and embracing disruption, startups contribute to a more innovative and inclusive world, shaping the future across industries and geographies."},
+            {"action":"scroll-down", "locator":"//textarea[contains(@placeholder,'List All')]"},
+            {"action":"fill", "locator":"//textarea[contains(@placeholder,'List All')]", "value":"none"},
+            {"action":"custom-click", "locator":"(//button[@type='submit'])[2]"}
+
+        ]
+    },
+    "website31":{
+        "url":"https://www.spacebandits.io/startups",
+        "steps":[
+            {"action":"scroll-down", "locator":"(//div[contains(text(),'Submit your')])[1]"},
+            {"action":"custom-click", "locator":"(//div[contains(text(),'Submit your')])[1]"},
+            {"action":"fill", "locator":"(//input[@type='text'])[1]", "value":"abcd"},
+            {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"tech"},
+            {"action":"fill", "locator":"(//input[@type='text'])[3]", "value":"none"},
+            {"action":"fill", "locator":"//input[@type='url']","value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abcd.com"},
+            {"action":"scroll-down", "locator":"//input[@type='button']"},
+            {"action":"custom-click", "locator":"//input[@type='button']"}
+        ]
+    },
+    "website32":{
+        "url":"https://profithunt.co/",
+        "steps":[
+            {"action":"custom-click", "locator":"//a[contains(text(),'Submit')]"},
+            {"action":"scroll-down", "locator":"(//input[@type='text'])[1]"},
+            {"action":"fill", "locator":"(//input[@type='text'])[1]", "value":"abcd"},
+            {"action":"fill", "locator":"(//input[@type='url'])[1]", "value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"(//textarea[@class='KHxj8b tL9Q4c'])[1]", "value":"none"},
+            {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"abcde"},
+            {"action":"fill", "locator":"//input[@type='email']", "value":"abcd@abcd.com"},
+            {"action":"scroll-down", "locator":"//span[text()='Yes']"},
+            {"action":"custom-click", "locator":"//span[text()='Yes']"},
+            {"action":"fill", "locator":"(//input[@type='text'])[3]", "value":"null"},
+            {"action":"fill", "locator":"(//input[@type='url'])[2]", "value":"https://www.example.com/mypage.html"},
+            {"action":"scroll-down", "locator":"(//span[@class='NPEfkd RveJvd snByac'])[2]"},
+            {"action":"custom-click", "locator":"(//span[@class='NPEfkd RveJvd snByac'])[2]"}
+        ]
+    },
+    "website33":{
+        "url":"https://feedmystartup.com/submit-your-startup/",
+        "steps":[
+            {"action":"iframe", "locator":"//iframe[contains(@src, 'data:image')]"},
+            {"action":"scroll-down", "locator":"(//input[@type='text'])[1]"},
+            {"action":"fill", "locator":"(//input[@type='text'])[1]", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@type='url']", "value":"https://www.example.com/mypage.html"},
+            {"action":"fill", "locator":"//input[@type='date']", "value":"10/02/2019"},
+            {"action":"fill", "locator":"(//input[@type='text'])[2]", "value":"none"},
+            {"action":"fill", "locator":"(//input[@type='text'])[3]", "value":"Startups are dynamic, high-growth businesses that play a pivotal role in driving innovation and economic progress. Typically characterized by their pursuit of scalable business models, startups often emerge from the desire to solve specific problems or disrupt established markets with novel ideas. They operate in an environment of uncertainty and experimentation, where creativity, agility, and adaptability are essential for survival and growth. Unlike traditional businesses, startups prioritize rapid development, often relying on lean methodologies to test and refine their products or services while minimizing costs.The ecosystem surrounding startups is integral to their success, comprising investors, mentors, accelerators, and incubators. Funding, whether through venture capital, angel investors, or crowdfunding, is a critical lifeline that enables startups to scale operations and innovate. Startups often thrive in hubs like Silicon Valley, where a culture of collaboration, competition, and risk-taking fosters their development.One of the defining traits of startups is their emphasis on technology and digital transformation. Many startups leverage cutting-edge advancements in fields like artificial intelligence, biotechnology, and blockchain to address unmet needs. Despite their potential, startups face numerous challenges, including market competition, financial constraints, and scaling difficulties.The impact of startups extends beyond economic benefits. They drive societal change, create jobs, and inspire entrepreneurial spirit globally. By challenging the status quo and embracing disruption,"},
+            {"action":"fill", "locator":"(//textarea[@aria-label='Your answer'])[1]", "value":"Startups are dynamic, high-growth businesses that play a pivotal role in driving innovation and economic progress. Typically characterized by their pursuit of scalable business models, startups often emerge from the desire to solve specific problems or disrupt established markets with novel ideas. They operate in an environment of uncertainty and experimentation, where creativity, agility, and adaptability are essential for survival and growth. Unlike traditional businesses, startups prioritize rapid development, often relying on lean methodologies to test and refine their products or services while minimizing costs.The ecosystem surrounding startups is integral to their success, comprising investors, mentors, accelerators, and incubators. Funding, whether through venture capital, angel investors, or crowdfunding, is a critical lifeline that enables startups to scale operations and innovate. Startups often thrive in hubs like Silicon Valley, where a culture of collaboration, competition, and risk-taking fosters their development.One of the defining traits of startups is their emphasis on technology and digital transformation. Many startups leverage cutting-edge advancements in fields like artificial intelligence, biotechnology, and blockchain to address unmet needs. Despite their potential, startups face numerous challenges, including market competition, financial constraints, and scaling difficulties.The impact of startups extends beyond economic benefits. They drive societal change, create jobs, and inspire entrepreneurial spirit globally. By challenging the status quo and embracing disruption,"},
+            {"action":"fill", "locator":"(//input[@type='text'])[4]", "value":"none"},
+            {"action":"fill", "locator":"(//textarea[@aria-label='Your answer'])[2]", "value":"none"},
+            {"action":"fill", "locator":"(//textarea[@aria-label='Your answer'])[3]", "value":"none"},
+            {"action":"fill", "locator":"(//input[@type='text'])[5]", "value":"none"},
+            {"action":"scroll-down", "locator":"(//input[@type='text'])[5]"},
+            {"action":"fill", "locator":"(//input[@type='text'])[5]", "value":"none"},
+            {"action":"fill", "locator":"(//input[@type='text'])[6]", "value":"none"},
+            {"action":"fill", "locator":"(//input[@type='text'])[7]", "value":"abcd"},
+            {"action":"fill", "locator":"(//input[@type='text'])[8]", "value":"none"},
+            {"action":"scroll-down", "locator":"//span[text()='Submit']"},
+            {"action":"custom-click", "locator":"//span[text()='Submit']"}
+         ]
+    },
+    "website34":{
+        "url":"https://www.beingguru.com/submit-startup/",
+        "steps":[
+            {"action":"scroll-down", "locator":"//input[@name='startup-title']"},
+            {"action":"fill", "locator":"//input[@name='startup-title']", "value":"abcd"},
+            {"action":"fill", "locator":"//textarea[@name='startup-detail']", "value":"none"},
+            {"action":"fill", "locator":"//input[@type='file']", "value":"C:/ampcome/Backlinker-submission/project-file/dummy.pdf"},
+            {"action":"fill", "locator":"//input[@name='your-name']", "value":"krishna kumar"},
+            {"action":"scroll-down", "locator":"//input[@name='website']"},
+            {"action":"fill", "locator":"//input[@name='website']", "value":"https://abcd.com"},
+            {"action":"fill", "locator":"//input[@name='email']", "value":"abcd@abcd.com"},
+            {"action":"fill","locator":"//input[@name='phone']", "value":"00000000"},
+            {"action":"custom-click", "locator":"(//input[@type='submit'])[2]"}
+        ]
+    },
+    "website35":{
+        "url":"https://media.venturebeat.com/",
+        "steps":[
+            {"action":"scroll-down", "locator":"//input[@id='company']"},
+            {"action":"fill", "locator":"//input[@id='company']", "value":"abcd"},
+            {"action":"fill", "locator":"//input[@id='first_name']", "value":"abc"},
+            {"action":"fill", "locator":"//input[@id='last_name']", "value":"efg"},
+            {"action":"fill", "locator":""}
+        ]
+    }
+
+}
+
+
